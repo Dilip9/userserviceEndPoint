@@ -1,2 +1,9 @@
-package com.userservice;public interface UsersRepository {
+package com.userservice.repository;
+
+import com.userservice.domain.Users;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UsersRepository extends CrudRepository<Users, Long> {
 }

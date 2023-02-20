@@ -1,2 +1,4 @@
-package com.userservice;public interface UsersService {
+package com.userservice.service;
+
+public interface UsersService {
 }

@@ -1,2 +1,9 @@
-package com.userservice;public class UserController {
+package com.userservice.controller;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@CrossOrigin("*")
+public class UserController {
 }

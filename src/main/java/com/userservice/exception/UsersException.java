@@ -1,2 +1,4 @@
-package com.userservice.exception;public class UsersException {
+package com.userservice.exception;
+
+public class UsersException {
 }
